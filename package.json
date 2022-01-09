@@ -11,11 +11,12 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "test2": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fokusdotid/enjela-bot.git"
+    "url": "git+https://github.com/fokusdotid/Jb.git"
   },
   "keywords": [
     "bot",
@@ -27,9 +28,9 @@
   "author": "Fokus Dot Id",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fokusdotid/enjela-bot/issues"
+    "url": "https://github.com/fokusdotid/JB/issues"
   },
-  "homepage": "https://github.com/fokusdotid/enjela-bot#readme",
+  "homepage": "https://github.com/fokusdotid/JB#readme",
   "dependencies": {
     "@adiwajshing/baileys": "github:fokusdotid/baileys",
     "awesome-phonenumber": "^2.62.1",
@@ -62,5 +63,11 @@
     "xmldom": "^0.6.0",
     "yargs": "^17.2.1",
     "yt-search": "^2.9.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "plugins/*",
+      "session.data.json"
+    ]
   }
 }
