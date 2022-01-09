@@ -1,7 +1,7 @@
 {
-  "name": "enjela-bot",
-  "version": "1.0.0",
-  "description": "bot whatsapp by aguz familia",
+  "name": "JB-Bot",
+  "version": "2.0.1",
+  "description": "simpel bot whatsapp",
   "depecrated": false,
   "main": "index.js",
   "directories": {
@@ -11,12 +11,11 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js",
-    "test2": "nodemon index.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fokusdotid/Jb.git"
+    "url": "git+https://github.com/FokusDotId/JB.git"
   },
   "keywords": [
     "bot",
@@ -25,18 +24,19 @@
     "bot",
     "baileys"
   ],
-  "author": "Fokus Dot Id",
+  "author": "melcanz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fokusdotid/JB/issues"
+    "url": "https://github.com/FokusDotId/JB/issues"
   },
-  "homepage": "https://github.com/fokusdotid/JB#readme",
+  "homepage": "https://github.com/FokusDotId/JB#readme",
   "dependencies": {
     "@adiwajshing/baileys": "github:fokusdotid/baileys",
     "awesome-phonenumber": "^2.62.1",
     "cfonts": "^2.9.3",
     "chalk": "^4.1.1",
     "cheerio": "^1.0.0-rc.5",
+    "emoji-api": "^2.0.1",
     "express": "^4.17.1",
     "file-type": "^16.5.2",
     "form-data": "^4.0.0",
@@ -55,19 +55,18 @@
     "qrcode-terminal": "^0.12.0",
     "similarity": "^1.2.1",
     "socket.io": "^4.1.3",
+    "spinnies": "^0.5.1",
     "syntax-error": "^1.4.0",
     "terminal-image": "^2.0.0",
     "translate-google-api": "^1.0.4",
     "url-regex": "^5.0.0",
+    "wa-sticker-formatter": "^4.2.0",
     "xml-js": "^1.6.11",
     "xmldom": "^0.6.0",
     "yargs": "^17.2.1",
     "yt-search": "^2.9.0"
   },
-  "nodemonConfig": {
-    "ignore": [
-      "plugins/*",
-      "session.data.json"
-    ]
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
