@@ -195,12 +195,13 @@ let tags = {
 ├ Uptime: *%uptime*
 ├ Muptime:  *%muptime*
 └────
-%readmore`
+%readmore
+┌─〔 MENU 〕`
 
-    let header = conn.menu.header || '┌─〔 %category 〕'
+    let header = conn.menu.header || '│'
     let body   = conn.menu.body   || '├ %cmd %islimit'
-    let footer = conn.menu.footer || '└────\n'
-    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered By @${global.conn.user.jid.split`@`[0]}`) + ''
+    let footer = conn.menu.footer || '│'
+    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered By @${global.conn.user.jid.split`@`[0]}`) + '└────'
 
     let _text  = before + '\n'
     for (let tag in groups) {
