@@ -11,7 +11,7 @@ let handler = async (m, { conn, args }) => {
   m.reply('https://chat.whatsapp.com/' + await conn.groupInviteCode(group))
 }
 handler.help = ['link']
-handler.tags = ['group']
+handler.tags = ['main']
 handler.command = /^link(gro?up)?$/i
 
 module.exports = handler

@@ -157,7 +157,7 @@ ${usedPrefix}off welcome
 `.trim())
 }
 handler.help = ['on', 'off'].map(v => v + ' <option>')
-handler.tags = ['group', 'owner']
+handler.tags = ['main']
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 
 module.exports = handler

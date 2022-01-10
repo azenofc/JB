@@ -96,7 +96,7 @@ if (/^qr_ovo?$/i.test(command)) {
 }
 
 handler.help = ['dana_aja','gopay_aja','ovo_aja','qr_dana','qr_ovo','qr_gopay']
-handler.tags = ['payment']
+handler.tags = ['diamond']
 handler.command = ['dana_aja','gopay_aja','ovo_aja','qr_dana','qr_ovo','qr_gopay']
 
 module.exports = handler

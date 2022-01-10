@@ -19,7 +19,7 @@ let handler = async (m, { conn, command }) => {
 }
 
 handler.help = ['infochat']
-handler.tags = ['info']
+handler.tags = ['main']
 handler.command = /^(info(c(hat)?|b(ot)?))$/i
 
 module.exports = handler

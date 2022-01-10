@@ -23,7 +23,7 @@ let handler = async (m, { conn, isOwner, text, isAdmin }) => {
   }
 }
 handler.help = ['unban']
-handler.tags = ['owner', 'group']
+handler.tags = ['main']
 handler.command = /^(ub|unban)$/i
 
 module.exports = handler

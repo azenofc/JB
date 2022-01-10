@@ -30,7 +30,7 @@ let handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
   await conn.relayWAMessage(msg)
 }
 handler.help = ['hidetag'].map(v => v + ' [teks]')
-handler.tags = ['group']
+handler.tags = ['main']
 handler.command = /^(h(ide)?tag)$/i
 
 module.exports = handler

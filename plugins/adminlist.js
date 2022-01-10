@@ -8,7 +8,7 @@
 conn.reply(m.chat, txt, m, { contextInfo: { mentionedJid: mimin }})
 }
 handler.help = ['tagadmin']
-handler.tags = ['group']
+handler.tags = ['main']
 handler.command = /^(adminlist|listadmin|tagadmin)$/i
 handler.group = true
 handler.register = false

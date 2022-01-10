@@ -14,8 +14,8 @@ conn.groupRemove(m.chat, [usr]); return;
       await conn.groupRemove(m.chat, [user]);
 };
 
-handler.help = ['kick', '-'].map((v) => v + '@user');
-handler.tags = ['group'];
+handler.help = ['kick'].map((v) => v + '@user');
+handler.tags = ['main'];
 handler.command = /^(kick|\-)$/i;
 
 handler.group = true

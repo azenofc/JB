@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   conn.reply(m.sender, 'https://chat.whatsapp.com/' + res.code)
 }
 handler.help = ['revoke']
-handler.tags = ['group']
+handler.tags = ['main']
 handler.command = /^re(voke|new)(invite|link)?$/i
 
 handler.group = true

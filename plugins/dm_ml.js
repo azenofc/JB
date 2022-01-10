@@ -1,13 +1,5 @@
 let fs = require('fs')
 let { MessageType } = require('@adiwajshing/baileys')
-var nomor_dana = global.dana
-var nomor_gopay = global.gopay
-var nomor_ovo = global.ovo
-
-var qr_code_dana = 'https://g.top4top.io/p_2143we1fx0.jpg' 
-var qr_code_gopay = 'https://g.top4top.io/p_2143we1fx0.jpg' 
-var qr_code_ovo = 'https://g.top4top.io/p_2143we1fx0.jpg'
-var qr_code_linkaja = 'https://g.top4top.io/p_2143we1fx0.jpg'
 
 // list diamond ml beserta harganya
 let _diamond1 = `⦿ 86 💎 = Rp 22.000 💰`;
@@ -41,7 +33,7 @@ let handler = async (m, { conn, usedPrefix: _p, text, isOwner, command }) => {
 }
 
 handler.help = ['dm_ml']
-handler.tags = ['diamond']
+handler.tags = ['main']
 handler.command = /^((diamond|dm)_(ml?))$/i
 
 module.exports = handler

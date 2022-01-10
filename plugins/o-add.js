@@ -35,10 +35,10 @@ let handler = async (m, { conn, text, participants }) => {
   }
 }
 handler.help = ['add', '+'].map(v => v + ' @user')
-handler.tags = ['owner']
+handler.tags = ['main']
 handler.command = /^(add|\+)$/i
 
-handler.owner = true
+handler.owner = false
 handler.group = true
 handler.botAdmin = true
 

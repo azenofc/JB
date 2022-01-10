@@ -20,7 +20,7 @@ ${usedPrefix + command} tutup
 	await conn.groupSettingChange(m.chat, 'announcement', isClose)
 }
 handler.help = ['group <buka/tutup>']
-handler.tags = ['group']
+handler.tags = ['main']
 handler.command = /^(gr|gro?up)$/i
 
 handler.group = true

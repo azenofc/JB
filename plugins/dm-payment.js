@@ -21,7 +21,7 @@ buttons = [
 }
 
 handler.help = ['payment']
-handler.tags = ['diamond']
+handler.tags = ['main']
 handler.command = /^(payment|pembayaran)$/i
 
 module.exports = handler

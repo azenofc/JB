@@ -16,7 +16,7 @@ let handler = function (m, { isAdmin, isOwner }) {
   })
 }
 handler.help = ['del', 'delete']
-handler.tags = ['info']
+handler.tags = ['main']
 
 handler.command = /^del(ete)?$/i
 

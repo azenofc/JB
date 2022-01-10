@@ -5,7 +5,7 @@ function handler(m) {
 }
 
 handler.help = ['owner']
-handler.tags = ['info']
+handler.tags = ['main']
 handler.command = /^(owner)$/i
 
 module.exports = handler

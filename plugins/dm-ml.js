@@ -1,23 +1,4 @@
-/*const diamond = [
-_diamond1 = '⦿ 5 💎',
-_diamond2 = '⦿ 20 💎',
-_diamond3 = '⦿ 50 💎',
-_diamond4 = '⦿ 70 💎',
-_diamond5 = '⦿ 100 💎',
-_diamond6 = '⦿ 150 💎',
-_diamond7 = '⦿ 210 💎',
-_diamond8 = '⦿ 355 💎',
-_diamond9 = '⦿ 500 💎',
-_diamond10 = '⦿ 720 💎',
-_diamond11 = '⦿ 1000 💎',
-_diamond12 = '⦿ 1075 💎',
-_diamond13  = '⦿ 1440 💎',
-_diamond14 = '⦿ 2000 💎',
-_diamond15 = '⦿ 5000 💎',
-_diamond16 = '⦿ M. Mingguan',
-_diamond17 = '⦿ M. Bulanan'
-]
-*/
+
 // list diamond                                            // harga diamond
 let _diamond1 = '⦿ 86 💎';           let diamond1 = 'Rp 22,000 💰';
 let _diamond2 = '⦿ 172 💎';           let diamond2 = 'Rp 41,000 💰';

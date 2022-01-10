@@ -8,7 +8,7 @@ let handler = async (m, { conn, text, isROwner }) => {
     }
 }
 handler.help = ['update']
-handler.tags = ['host']
+handler.tags = ['main']
 handler.command = /^(u(pdate)?)$/i
 
 handler.rowner = true

@@ -44,7 +44,7 @@ let handler = async (m, { conn, usedPrefix: _p, text, isOwner, command }) => {
 }
 
 handler.help = ['dm_ff']
-handler.tags = ['diamond']
+handler.tags = ['main']
 handler.command = /^((diamond|dm)_(ff?))$/i
 
 module.exports = handler
