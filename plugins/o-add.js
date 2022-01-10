@@ -1,7 +1,6 @@
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn, text, participants }) => {
-  if (!db.data.settings[conn.user.jid].restrict) return await conn.sendButton(m.chat, 'info: if used too often, the number will be banned', wm, 'On Restrict', '.on restrict', m)
   if (m.quoted) {
     await conn.groupAdd(m.chat, [m.quoted.sender]).catch(console.log)
   }
