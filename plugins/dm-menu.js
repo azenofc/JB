@@ -16,6 +16,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 handler.help = ['diamond','menu']
 handler.tags = ['main']
-handler.command = /^(diamond|dm|menu)$/i
+handler.command = /^(diamond|dm|menu|help|\?)$/i
 
 module.exports = handler
