@@ -8,9 +8,9 @@ let handler = async (m, { conn, command, usedPrefix }) => {
 	let pp = 'https://i.ibb.co/gS0XrNc/avatar-contact.png'
 	let prefix = usedPrefix
 	let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-	let dana = '081320170984'
-	let gopay = '081320170984'
-	let ovo = '081320170984'
+	let dana = '083154614517'
+	let gopay = 'SCAN'
+	let qris = 'SCAN'
 	let nama = conn.getName(who)
 	let d = new Date(new Date + 3600000)
 	let locale = 'id'
@@ -19,7 +19,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
       minute: 'numeric',
       second: 'numeric'
     })
-    let shop = 'FAMILIA-STORE'
+    let shop = 'AZEN STORE'
     
 	try {
 		pp = await conn.getProfilePicture(who)
@@ -71,7 +71,7 @@ if (/^ovo_aja?$/i.test(command)) {
 if (/^qr_gopay?$/i.test(command)) {
 	let teks = `Jangan lupa mengisi format order berikut setelah melakukan pembayaran\n\n*Nama*  : \n*ID*  : \n*Nick Name* : \n*Nominal* :\n\n*「 ${shop} 」*`
 	let teks2 = `hay ${nama}, ini adalah detail pembayaran kamu, bayar sesuai nominal yg kamu pilih.`
-	let gopay = 'https://j.top4top.io/p_2195c2ezs1.png'
+	let gopay = 'https://telegra.ph/file/90f282f0730d58e7355b2.jpg'
 	let gambar = `${gopay}`
 	let gambarnya = await getBuffer(gambar)
 	await conn.sendMessage(m.chat, gambarnya, image, { thumbnail: gambarnya, quoted: m, caption: teks } )
@@ -79,7 +79,7 @@ if (/^qr_gopay?$/i.test(command)) {
 if (/^qr_dana?$/i.test(command)) {
 	let teks = `Jangan lupa mengisi format order berikut setelah melakukan pembayaran\n\n*Nama*  : \n*ID*  : \n*Nick Name* : \n*Nominal* :\n\n*「 ${shop} 」*`
 	let teks2 = `hay ${nama}, ini adalah detail pembayaran kamu, bayar sesuai nominal yg kamu pilih.`
-	let dana = 'https://j.top4top.io/p_2195c2ezs1.png'
+	let dana = 'https://telegra.ph/file/acd35982b7ad7a58c3117.jpg'
 	let gambar = `${dana}`
 	let gambarnya = await getBuffer(gambar)
 	await conn.sendMessage(m.chat, gambarnya, image, { thumbnail: gambarnya, quoted: m, caption: teks } )
@@ -87,8 +87,8 @@ if (/^qr_dana?$/i.test(command)) {
 if (/^qr_ovo?$/i.test(command)) {
 	let teks = `Jangan lupa mengisi format order berikut setelah melakukan pembayaran\n\n*Nama*  : \n*ID*  : \n*Nick Name* : \n*Nominal* :\n\n*「 ${shop} 」*`
 	let teks2 = `hay ${nama}, ini adalah detail pembayaran kamu, bayar sesuai nominal yg kamu pilih.`
-	let ovo = 'https://j.top4top.io/p_2195c2ezs1.png'
-	let gambar = `${ovo}`
+	let ovo = 'https://telegra.ph/file/a6179145789adac8ac2c9.jpg'
+	let gambar = `${qris}`
 	let gambarnya = await getBuffer(gambar)
 	await conn.sendMessage(m.chat, gambarnya, image, { thumbnail: gambarnya, quoted: m, caption: teks } )
 	}
