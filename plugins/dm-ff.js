@@ -18,9 +18,6 @@ let _diamond16 = '⦿ 1440 💎';         let diamond16 = 'Rp 182.600💰';
 let _diamond17 = '⦿ 9926 💎';        let diamond17 = 'Rp 248.600💰';
 let _diamond18 = '⦿ 14820 💎';      let diamond18 = 'Rp 340.100💰';
 
-let _diamond16 = '⦿ M. Mingguan';       let diamond16 = 'Rp 28.800💰';
-let _diamond17 = '⦿ M. Bulanan';      let diamond17 = 'Rp 140.300💰';
-
 const fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, command, usedPrefix }) => {
