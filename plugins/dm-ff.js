@@ -228,13 +228,52 @@ if (/15$/i.test(command)) {
 		buttons: buttons,
 		headerType: 1
 	}
+	conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage,{quoted:ftroli,contextInfo: {"mentionedJid": [m.sender],"forwardingScore":999,"isForwarded":true},sendEphemeral: true })
+}
+if (/16$/i.test(command)) {
+	buttons = [
+	{buttonId: `${prefix}dm_ff`, buttonText: {displayText: '⬅️ Back'}, type: 1},
+	{buttonId: `${prefix}payment`, buttonText:{displayText: '💸 Payment'}, type: 1}
+	]
+	buttonMessage = {
+		contentText: `Halo kak @${m.sender.split('@')[0]} 🥰\n\n• Pilih payment jika ingin membeli ${_diamond16} dgn harga ${diamond16}\n• Pilih back jika ingin kembali ke list diamond`,
+		footerText: `${shop}`,
+		buttons: buttons,
+		headerType: 1
+	}
+	conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage,{quoted:ftroli,contextInfo: {"mentionedJid": [m.sender],"forwardingScore":999,"isForwarded":true},sendEphemeral: true })
+}
+if (/17$/i.test(command)) {
+	buttons = [
+	{buttonId: `${prefix}dm_ff`, buttonText: {displayText: '⬅️ Back'}, type: 1},
+	{buttonId: `${prefix}payment`, buttonText:{displayText: '💸 Payment'}, type: 1}
+	]
+	buttonMessage = {
+		contentText: `Halo kak @${m.sender.split('@')[0]} 🥰\n\n• Pilih payment jika ingin membeli ${_diamond17} dgn harga ${diamond17}\n• Pilih back jika ingin kembali ke list diamond`,
+		footerText: `${shop}`,
+		buttons: buttons,
+		headerType: 1
+	}
+	conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage,{quoted:ftroli,contextInfo: {"mentionedJid": [m.sender],"forwardingScore":999,"isForwarded":true},sendEphemeral: true })
+}
+if (/18$/i.test(command)) {
+	buttons = [
+	{buttonId: `${prefix}dm_ff`, buttonText: {displayText: '⬅️ Back'}, type: 1},
+	{buttonId: `${prefix}payment`, buttonText:{displayText: '💸 Payment'}, type: 1}
+	]
+	buttonMessage = {
+		contentText: `Halo kak @${m.sender.split('@')[0]} 🥰\n\n• Pilih payment jika ingin membeli ${_diamond18} dgn harga ${diamond18}\n• Pilih back jika ingin kembali ke list diamond`,
+		footerText: `${shop}`,
+		buttons: buttons,
+		headerType: 1
+	}
 		conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage,{quoted:ftroli,contextInfo: {"mentionedJid": [m.sender],"forwardingScore":999,"isForwarded":true},sendEphemeral: true })
 		}
 	}
 }
 
-handler.help = new Array(15).fill('ff').map((v, i) => v + (i + 1))
+handler.help = new Array(18).fill('ff').map((v, i) => v + (i + 1))
 handler.tags = ['diamond']
-handler.command = ['ff1','ff2','ff3','ff4','ff5','ff6','ff7','ff8','ff9','ff10','ff11','ff12','ff13','ff14','ff15']
+handler.command = ['ff1','ff2','ff3','ff4','ff5','ff6','ff7','ff8','ff9','ff10','ff11','ff12','ff13','ff14','ff15','ff16','ff17','ff18']
 
 module.exports = handler
