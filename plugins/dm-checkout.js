@@ -9,8 +9,8 @@ let handler = async (m, { conn, command, usedPrefix }) => {
 	let prefix = usedPrefix
 	let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 	let dana = '083154614517'
-	let gopay = 'SCAN'
-	let qris = 'SCAN'
+	let gopay = 'SCAN PP GRUP'
+	let ovo = 'SCAN'
 	let nama = conn.getName(who)
 	let d = new Date(new Date + 3600000)
 	let locale = 'id'
@@ -19,7 +19,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
       minute: 'numeric',
       second: 'numeric'
     })
-    let shop = 'AZEN STORE'
+    let shop = 'AZEN-STORE'
     
 	try {
 		pp = await conn.getProfilePicture(who)
@@ -87,8 +87,8 @@ if (/^qr_dana?$/i.test(command)) {
 if (/^qr_ovo?$/i.test(command)) {
 	let teks = `Jangan lupa mengisi format order berikut setelah melakukan pembayaran\n\n*Nama*  : \n*ID*  : \n*Nick Name* : \n*Nominal* :\n\n*「 ${shop} 」*`
 	let teks2 = `hay ${nama}, ini adalah detail pembayaran kamu, bayar sesuai nominal yg kamu pilih.`
-	let ovo = 'https://telegra.ph/file/a6179145789adac8ac2c9.jpg'
-	let gambar = `${qris}`
+	let ovo = 'https://telegra.ph/file/34374ddcea601fa7e07a4.jpg'
+	let gambar = `${ovo}`
 	let gambarnya = await getBuffer(gambar)
 	await conn.sendMessage(m.chat, gambarnya, image, { thumbnail: gambarnya, quoted: m, caption: teks } )
 	}

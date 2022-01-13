@@ -1,13 +1,18 @@
 
 // list diamond                                            // harga diamond
-let _diamond1 = '⦿ 86 💎';           let diamond1 = 'Rp 22,000 💰';
-let _diamond2 = '⦿ 172 💎';           let diamond2 = 'Rp 41,000 💰';
-let _diamond3 = '⦿ 257 💎';           let diamond3 = 'Rp 62,000 💰';
-let _diamond4 = '⦿ 706 💎';           let diamond4 = 'Rp 162,000 💰';
-let _diamond5 = '⦿ 2195 💎';           let diamond5 = 'Rp 480,000 💰';
-let _diamond6 = '⦿ 3688 💎';           let diamond6 = 'Rp 780,000 💰';
-let _diamond7 = '⦿ 5532 💎';           let diamond7 = 'Rp 1,200,000 💰';
-let _diamond8 = '⦿ 9288 💎';           let diamond8 = 'Rp 1,995,000 💰';
+let _diamond1 = '⦿ 86 💎';           let diamond1 = 'Rp 18.500 💰';
+let _diamond2 = '⦿ 172 💎';           let diamond2 = 'Rp 37.500 💰';
+let _diamond3 = '⦿ 257 💎';           let diamond3 = 'Rp 55.600 💰';
+let _diamond4 = '⦿ 344 💎';           let diamond4 = 'Rp 73.400 💰';
+let _diamond5 = '⦿ 429 💎';           let diamond5 = 'Rp 92.300 💰';
+let _diamond6 = '⦿ 514 💎';           let diamond6 = 'Rp 112.400 💰';
+let _diamond7 = '⦿ 706 💎';           let diamond7 = 'Rp 145.100 💰';
+let _diamond8 = '⦿ 878 💎';           let diamond8 = 'Rp 182.200 💰';
+let _diamond8 = '⦿ 963 💎';           let diamond8 = 'Rp 198.600 💰';
+let _diamond8 = '⦿ 1412 💎';           let diamond8 = 'Rp 280.600 💰';
+let _diamond8 = '⦿ 2195 💎';           let diamond8 = 'Rp 426.200 💰';
+let _diamond8 = '⦿ 3688 💎';           let diamond8 = 'Rp 708.100 💰';
+let _diamond8 = '⦿ 4394 💎';           let diamond8 = 'Rp 848.600 💰';
 
 const fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')

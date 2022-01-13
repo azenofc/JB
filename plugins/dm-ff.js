@@ -1,25 +1,25 @@
 // Diamond FF 						// Harga FF
-let _diamond1 = '⦿ 70 💎';           let diamond1 = 'Rp 9.250 💰';
-let _diamond2 = '⦿ 100 💎';           let diamond2 = 'Rp 13.500💰';
-let _diamond3 = '⦿ 140 💎';           let diamond3 = 'Rp 18.600💰';
-let _diamond4 = '⦿ 150 💎';           let diamond4 = 'Rp 20.400💰';
-let _diamond5 = '⦿ 200 💎';           let diamond5 = 'Rp 26.900💰';
-let _diamond6 = '⦿ 210 💎';           let diamond6 = 'Rp 28.400💰';
-let _diamond7 = '⦿ 280 💎';           let diamond7 = 'Rp 37.200💰';
-let _diamond8 = '⦿ 355 💎';           let diamond8 = 'Rp 46.600💰';
-let _diamond9 = '⦿ 400 💎';         let diamond9 = 'Rp 52.600💰';
-let _diamond10 = '⦿ 500 💎';         let diamond10 = 'Rp 65.600💰';
-let _diamond11 = '⦿ 635 💎';         let diamond11 = 'Rp 82.800💰';
-let _diamond12 = '⦿ 720 💎';         let diamond12 = 'Rp 91.400💰';
-let _diamond13  = '⦿ 1000 💎';         let diamond13 = 'Rp 118.600💰';
-let _diamond14 = '⦿ 1075 💎';         let diamond14 = 'Rp 137.600💰';
-let _diamond15 = '⦿ 1440 💎';         let diamond15 = 'Rp 182.600💰';
-let _diamond16 = '⦿ 9926 💎';         let diamond16 = 'Rp 248.600💰';
-let _diamond17 = '⦿ 14820 💎';        let diamond17 = 'Rp 340.100💰';
-let _diamond18 = '⦿ 18076 💎';        let diamond18 = 'Rp 497.600💰';
+let _diamond1 = '⦿ 50 💎';           let diamond1 = 'Rp 6.500 💰';
+let _diamond2 = '⦿ 70 💎';           let diamond2 = 'Rp 9.250💰';
+let _diamond3 = '⦿ 100 💎';           let diamond3 = 'Rp 13.500💰';
+let _diamond4 = '⦿ 140 💎';           let diamond4 = 'Rp 18.600💰';
+let _diamond5 = '⦿ 150 💎';           let diamond5 = 'Rp 20.400💰';
+let _diamond6 = '⦿ 200 💎';           let diamond6 = 'Rp 26.900💰';
+let _diamond7 = '⦿ 210 💎';           let diamond7 = 'Rp 28.400💰';
+let _diamond8 = '⦿ 280 💎';           let diamond8 = 'Rp 37.500💰';
+let _diamond9 = '⦿ 355 💎';         let diamond9 = 'Rp 46.600💰';
+let _diamond10 = '⦿ 400 💎';         let diamond10 = 'Rp 52.600💰';
+let _diamond11 = '⦿ 500 💎';         let diamond11 = 'Rp 65.600💰';
+let _diamond12 = '⦿ 635 💎';         let diamond12 = 'Rp 82.800💰';
+let _diamond13  = '⦿ 720 💎';         let diamond13 = 'Rp 91.400💰';
+let _diamond14 = '⦿ 1000 💎';         let diamond14 = 'Rp 118.600💰';
+let _diamond15 = '⦿ 1075 💎';         let diamond15 = 'Rp 137.600💰';
+let _diamond16 = '⦿ 1440 💎';         let diamond16 = 'Rp 182.600💰';
+let _diamond17 = '⦿ 9926 💎';.        let diamond17 = 'Rp 248.600💰';
+let _diamond18 = '⦿ 14820 💎';.      let diamond18 = 'Rp 340.100💰';
 
-let _diamond19 = '⦿ M. Mingguan';       let diamond16 = 'Rp 28.500💰';
-let _diamond20 = '⦿ M. Bulanan';      let diamond17 = 'Rp 140.600💰';
+let _diamond16 = '⦿ M. Mingguan';       let diamond16 = 'Rp 28.800💰';
+let _diamond17 = '⦿ M. Bulanan';      let diamond17 = 'Rp 140.300💰';
 
 const fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')

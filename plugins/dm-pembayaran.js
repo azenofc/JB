@@ -35,7 +35,7 @@ if (/^gopay?$/i.test(command)) {
 if (/^ovo$/i.test(command)) {
 	buttons = [
 	{buttonId: `${prefix}qr_ovo`, buttonText: {displayText: '📠 Qr Code'}, type: 1},
-	{buttonId: `${prefix}ovo_aja`, buttonText:{displayText: '💸 Qris'}, type: 1}
+	{buttonId: `${prefix}ovo_aja`, buttonText:{displayText: '💸 Ovo'}, type: 1}
 	]
 	buttonMessage = {
 		contentText: `hay @${m.sender.split('@')[0]}, ini adalah detail pembayaran kamu, bayar sesuai nominal yg kamu pilih`,
@@ -48,8 +48,8 @@ if (/^ovo$/i.test(command)) {
 }
 
 
-handler.help = ['dana', 'gopay', 'qris']
+handler.help = ['dana', 'gopay', 'ovo']
 handler.tags = ['diamond']
-handler.command = ['dana','gopay','qris']
+handler.command = ['dana','gopay','ovo']
 
 module.exports = handler

@@ -9,7 +9,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
 buttons = [
 	{buttonId: `${prefix}dana`, buttonText: {displayText: '💸 Dana'}, type: 1},
 	{buttonId: `${prefix}gopay`, buttonText:{displayText: '💸 Gopay'}, type: 1},
-	{buttonId: `${prefix}ovo`, buttonText:{displayText: '💸 Qris'}, type: 1}
+	{buttonId: `${prefix}ovo`, buttonText:{displayText: '💸 Ovo'}, type: 1}
 	]
 	buttonMessage = {
 		contentText: `${str}`,

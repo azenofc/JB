@@ -2,27 +2,27 @@ let fs = require('fs')
 let { MessageType } = require('@adiwajshing/baileys')
 
 // list diamond dan harga
-let _diamond1 = `⦿ 70 💎 = Rp 9.250 💰`;
-let _diamond2 = `⦿ 100 💎 = Rp 13,800 💰`;
-let _diamond3 = `⦿ 140 💎 = Rp 18,600 💰`;
-let _diamond4 = `⦿ 150 💎 = Rp 9,500 💰`;
-let _diamond5 = `⦿ 200 💎 = Rp 20,600 💰`;
-let _diamond6 = `⦿ 210 💎 = Rp 28,400 💰`;
-let _diamond7 = `⦿ 280 💎 = Rp 37,200 💰`;
-let _diamond8 = `⦿ 355 💎 = Rp 46,600 💰`;
-let _diamond9 = `⦿ 400 💎 = Rp 52,600 💰`;
-let _diamond10 = `⦿ 500 💎 = Rp 65,500 💰`;
-let _diamond11 = `⦿ 635 💎 = Rp 82,800 💰`;
-let _diamond12 = `⦿ 720 💎 = Rp 91,500 💰`;
-let _diamond13  = `⦿ 1000 💎 = Rp 118,600 💰`;
-let _diamond14 = `⦿ 1075 💎 = Rp 138,000 💰`;
-let _diamond15 = `⦿ 1440 💎 = Rp 183,000 💰`; 
-let _diamond16 = `⦿ 9926 💎 = Rp 248,600 💰`;
-let _diamond17 = `⦿ 14820 💎 = Rp 340,200 💰`;
-let _diamond18 = `⦿ 18076 💎 = Rp 498,000 💰`;
+let _diamond1 = `⦿ 50 💎 = Rp 6.500 💰`;
+let _diamond2 = `⦿ 70 💎 = Rp 9.250 💰`;
+let _diamond3 = `⦿ 100 💎 = Rp 13.500 💰`;
+let _diamond4 = `⦿ 140 💎 = Rp 18.600 💰`;
+let _diamond5 = `⦿ 150 💎 = Rp 20.400 💰`;
+let _diamond6 = `⦿ 200 💎 = Rp 26.900 💰`;
+let _diamond7 = `⦿ 210 💎 = Rp 28.400 💰`;
+let _diamond8 = `⦿ 280 💎 = Rp 37.500 💰`;
+let _diamond9 = `⦿ 355 💎 = Rp 46.600 💰`;
+let _diamond10 = `⦿ 400 💎 = Rp 52.600 💰`;
+let _diamond11 = `⦿ 500 💎 = Rp 65.600 💰`;
+let _diamond12 = `⦿ 635 💎 = Rp 82.800 💰`;
+let _diamond13  = `⦿ 720 💎 = Rp 91.400 💰`;
+let _diamond14 = `⦿ 1000 💎 = Rp 118.600 💰`;
+let _diamond15 = `⦿ 1075 💎 = Rp 137.600 💰`; 
+let _diamond15 = `⦿ 1440 💎 = Rp 182.600 💰`; 
+let _diamond15 = `⦿ 9926 💎 = Rp 248.600 💰`; 
+let _diamond15 = `⦿ 14820 💎 = Rp 340.100 💰`; 
 
-let _diamond16 = `⦿ M. Mingguan = Rp 28,800💰`;
-let _diamond17 = `⦿ M. Bulanan = Rp 140,500💰`;
+let _diamond16 = `⦿ M. Mingguan = Rp 28.800💰`;
+let _diamond17 = `⦿ M. Bulanan = Rp 140,400💰`;
 
 let handler = async (m, { conn, usedPrefix: _p, text, isOwner, command }) => {
     let prefix = _p
