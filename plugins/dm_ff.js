@@ -17,19 +17,19 @@ let _diamond12 = `⦿ 635 💎 = Rp 82.800 💰`;
 let _diamond13  = `⦿ 720 💎 = Rp 91.400 💰`;
 let _diamond14 = `⦿ 1000 💎 = Rp 118.600 💰`;
 let _diamond15 = `⦿ 1075 💎 = Rp 137.600 💰`; 
-let _diamond15 = `⦿ 1440 💎 = Rp 182.600 💰`; 
-let _diamond15 = `⦿ 9926 💎 = Rp 248.600 💰`; 
-let _diamond15 = `⦿ 14820 💎 = Rp 340.100 💰`; 
+let _diamond16 = `⦿ 1440 💎 = Rp 182.600 💰`; 
+let _diamond17 = `⦿ 9926 💎 = Rp 248.600 💰`; 
+let _diamond18 = `⦿ 14820 💎 = Rp 340.100 💰`; 
 
-let _diamond16 = `⦿ M. Mingguan = Rp 28.800💰`;
-let _diamond17 = `⦿ M. Bulanan = Rp 140,400💰`;
+let _diamond19 = `⦿ M. Mingguan = Rp 28.800💰`;
+let _diamond20 = `⦿ M. Bulanan = Rp 140,400💰`;
 
 let handler = async (m, { conn, usedPrefix: _p, text, isOwner, command }) => {
     let prefix = _p
 
-    let tampil = [`${_diamond1}`, `${_diamond2}`, `${_diamond3}`, `${_diamond4}`, `${_diamond5}`, `${_diamond6}`, `${_diamond7}`, `${_diamond8}`, `${_diamond9}`, `${_diamond10}`, `${_diamond11}`, `${_diamond12}`, `${_diamond13}`, `${_diamond14}`, `${_diamond15}`]
+    let tampil = [`${_diamond1}`, `${_diamond2}`, `${_diamond3}`, `${_diamond4}`, `${_diamond5}`, `${_diamond6}`, `${_diamond7}`, `${_diamond8}`, `${_diamond9}`, `${_diamond10}`, `${_diamond11}`, `${_diamond12}`, `${_diamond13}`, `${_diamond14}`, `${_diamond15}`, `${_diamond16}`, `${_diamond17}`, `${_diamond18}`]
     let tampil1 = tampil.filter(v => ![`${_diamond1}`].includes(v))
-    let row = ['ff', 'ff1', 'ff2', 'ff3', 'ff4', 'ff5', 'ff6', 'ff7', 'ff8', 'ff9', 'ff10', 'ff11', 'ff12', 'ff13', 'ff14', 'ff15']
+    let row = ['ff', 'ff1', 'ff2', 'ff3', 'ff4', 'ff5', 'ff6', 'ff7', 'ff8', 'ff9', 'ff10', 'ff11', 'ff12', 'ff13', 'ff14', 'ff15', 'ff16', 'ff17', 'ff18']
     let row2 = row.filter(v => !['ff'].includes(v))
 
     let rows = Object.keys(tampil).map(v => ({

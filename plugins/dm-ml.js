@@ -8,11 +8,11 @@ let _diamond5 = '⦿ 429 💎';           let diamond5 = 'Rp 92.300 💰';
 let _diamond6 = '⦿ 514 💎';           let diamond6 = 'Rp 112.400 💰';
 let _diamond7 = '⦿ 706 💎';           let diamond7 = 'Rp 145.100 💰';
 let _diamond8 = '⦿ 878 💎';           let diamond8 = 'Rp 182.200 💰';
-let _diamond8 = '⦿ 963 💎';           let diamond8 = 'Rp 198.600 💰';
-let _diamond8 = '⦿ 1412 💎';           let diamond8 = 'Rp 280.600 💰';
-let _diamond8 = '⦿ 2195 💎';           let diamond8 = 'Rp 426.200 💰';
-let _diamond8 = '⦿ 3688 💎';           let diamond8 = 'Rp 708.100 💰';
-let _diamond8 = '⦿ 4394 💎';           let diamond8 = 'Rp 848.600 💰';
+let _diamond9 = '⦿ 963 💎';           let diamond9 = 'Rp 198.600 💰';
+let _diamond10 = '⦿ 1412 💎';           let diamond10 = 'Rp 280.600 💰';
+let _diamond11 = '⦿ 2195 💎';           let diamond11 = 'Rp 426.200 💰';
+let _diamond12 = '⦿ 3688 💎';           let diamond12 = 'Rp 708.100 💰';
+let _diamond13 = '⦿ 4394 💎';           let diamond13 = 'Rp 848.600 💰';
 
 const fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')

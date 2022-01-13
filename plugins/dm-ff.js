@@ -15,8 +15,8 @@ let _diamond13  = '⦿ 720 💎';         let diamond13 = 'Rp 91.400💰';
 let _diamond14 = '⦿ 1000 💎';         let diamond14 = 'Rp 118.600💰';
 let _diamond15 = '⦿ 1075 💎';         let diamond15 = 'Rp 137.600💰';
 let _diamond16 = '⦿ 1440 💎';         let diamond16 = 'Rp 182.600💰';
-let _diamond17 = '⦿ 9926 💎';.        let diamond17 = 'Rp 248.600💰';
-let _diamond18 = '⦿ 14820 💎';.      let diamond18 = 'Rp 340.100💰';
+let _diamond17 = '⦿ 9926 💎';        let diamond17 = 'Rp 248.600💰';
+let _diamond18 = '⦿ 14820 💎';      let diamond18 = 'Rp 340.100💰';
 
 let _diamond16 = '⦿ M. Mingguan';       let diamond16 = 'Rp 28.800💰';
 let _diamond17 = '⦿ M. Bulanan';      let diamond17 = 'Rp 140.300💰';
